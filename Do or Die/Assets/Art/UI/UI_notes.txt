@@ -1,0 +1,4 @@
+FONTS:
+Time scroll, high score, health and level numbers: Bookman
+Player's score: Bookman bold
+You can just put in a generic colored rectangle to fill in the exp bar
