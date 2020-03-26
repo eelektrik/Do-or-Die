@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7991757669908701048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 912107716638094674}
+  - component: {fileID: 6973177714022181320}
+  m_Layer: 0
+  m_Name: Wave 20
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &912107716638094674
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7991757669908701048}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6973177714022181320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7991757669908701048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 307be9eb825ceb84c82fae312d4563e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waveDuration: 45
+  enemyTypes:
+  - {fileID: 7476024113197626310, guid: 40c2d0f3eef84504ea4f065889a9eea4, type: 3}
+  - {fileID: 7476024113197626310, guid: 40c2d0f3eef84504ea4f065889a9eea4, type: 3}
+  - {fileID: 6999321597617015417, guid: 47cd31dd438b13f49b81b21a16696ca4, type: 3}
+  - {fileID: 6999321597617015417, guid: 47cd31dd438b13f49b81b21a16696ca4, type: 3}
+  - {fileID: 5716781273162608321, guid: abc6c50cf6367824c8046346a580ac08, type: 3}
+  - {fileID: 8116265560948319854, guid: 076f7513613393944bade475127ce8be, type: 3}
+  - {fileID: 8116265560948319854, guid: 076f7513613393944bade475127ce8be, type: 3}
+  - {fileID: 8116265560948319854, guid: 1f78c47bde8b6bc4da2a69d4cc6a3f8c, type: 3}
+  - {fileID: 2231300258419398428, guid: 95c8f3799898ef84fae6d6eebc6d3965, type: 3}
+  - {fileID: 2231300258419398428, guid: 95c8f3799898ef84fae6d6eebc6d3965, type: 3}
+  - {fileID: 5051844206788223757, guid: 7c436928e26f2834badcb6ff144f188a, type: 3}
+  - {fileID: 4904803380716362482, guid: 6b809a2656d569548b9a41ac7e46ecdb, type: 3}
+  - {fileID: 4904803380716362482, guid: 6b809a2656d569548b9a41ac7e46ecdb, type: 3}
+  - {fileID: 4904803380716362482, guid: 6b809a2656d569548b9a41ac7e46ecdb, type: 3}
+  - {fileID: 9219556007441580725, guid: af25ceb7f5c9eff4c993f2c828a12386, type: 3}
+  - {fileID: 9219556007441580725, guid: af25ceb7f5c9eff4c993f2c828a12386, type: 3}
+  - {fileID: 778108224773256374, guid: c8be9ecef739a3e4c8ea74eac6614d1a, type: 3}
+  maxEnemies: 25
