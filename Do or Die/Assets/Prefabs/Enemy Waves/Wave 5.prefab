@@ -40,13 +40,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 5744283608151028443}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 307be9eb825ceb84c82fae312d4563e2, type: 3}
+  m_Script: {fileID: 11500000, guid: d4e8636e0e7924c499d7512d1e31ded9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   waveDuration: 30
-  enemyTypes:
-  - {fileID: 7476024113197626310, guid: 40c2d0f3eef84504ea4f065889a9eea4, type: 3}
-  - {fileID: 6999321597617015417, guid: 47cd31dd438b13f49b81b21a16696ca4, type: 3}
-  - {fileID: 4904803380716362482, guid: 6b809a2656d569548b9a41ac7e46ecdb, type: 3}
-  - {fileID: 4904803380716362482, guid: 6b809a2656d569548b9a41ac7e46ecdb, type: 3}
-  maxEnemies: 9
+  enemyTypes: []
+  maxEnemies: 0

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7012807705141086715}
   - component: {fileID: 7012807705141086716}
   m_Layer: 0
-  m_Name: Scene Settings
+  m_Name: Base Scene Settings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48,7 +48,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: 1251d5426e3011a4193557f958402d68, type: 2}
+  sharedProfile: {fileID: 11400000, guid: e1e58c58f8029cf41af5bb9cb93d79b5, type: 2}
 --- !u!114 &7012807705141086716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61,8 +61,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 441482e8936e35048a1dffac814e3ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Profile: {fileID: 11400000, guid: 1251d5426e3011a4193557f958402d68, type: 2}
+  m_Profile: {fileID: 0}
   m_StaticLightingSkyUniqueID: 2
   m_SkySettings: {fileID: 0}
-  m_SkySettingsFromProfile: {fileID: -7159697961706589453, guid: 1251d5426e3011a4193557f958402d68,
-    type: 2}
+  m_SkySettingsFromProfile: {fileID: 0}

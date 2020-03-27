@@ -16,10 +16,10 @@ MonoBehaviour:
   m_AdvancedMode: 0
   skyType:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 0
   skyAmbientMode:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   fogType:
     m_OverrideState: 1
     m_Value: 3
@@ -144,6 +144,14 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 1
     min: 0.001
+  lutTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  lutContribution:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+    max: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,7 +169,6 @@ MonoBehaviour:
   - {fileID: -802946949901102134}
   - {fileID: 3423358186066290702}
   - {fileID: 5964440820284894952}
-  - {fileID: -4079009818481889753}
   - {fileID: -8533241222981838435}
 --- !u!114 &3423358186066290702
 MonoBehaviour:
@@ -243,9 +250,9 @@ MonoBehaviour:
   baseHeight:
     m_OverrideState: 1
     m_Value: 2
-  meanHeight:
-    m_OverrideState: 1
-    m_Value: 4
+  maximumHeight:
+    m_OverrideState: 0
+    m_Value: 10
   anisotropy:
     m_OverrideState: 1
     m_Value: 0.5

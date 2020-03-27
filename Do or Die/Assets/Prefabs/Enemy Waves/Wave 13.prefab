@@ -40,17 +40,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 4026444851804208459}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 307be9eb825ceb84c82fae312d4563e2, type: 3}
+  m_Script: {fileID: 11500000, guid: d4e8636e0e7924c499d7512d1e31ded9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waveDuration: 45
-  enemyTypes:
-  - {fileID: 7476024113197626310, guid: 40c2d0f3eef84504ea4f065889a9eea4, type: 3}
-  - {fileID: 6999321597617015417, guid: 47cd31dd438b13f49b81b21a16696ca4, type: 3}
-  - {fileID: 4904803380716362482, guid: 6b809a2656d569548b9a41ac7e46ecdb, type: 3}
-  - {fileID: 8116265560948319854, guid: 076f7513613393944bade475127ce8be, type: 3}
-  - {fileID: 8116265560948319854, guid: 1f78c47bde8b6bc4da2a69d4cc6a3f8c, type: 3}
-  - {fileID: 5716781273162608321, guid: abc6c50cf6367824c8046346a580ac08, type: 3}
-  - {fileID: 2231300258419398428, guid: 95c8f3799898ef84fae6d6eebc6d3965, type: 3}
-  - {fileID: 2231300258419398428, guid: 95c8f3799898ef84fae6d6eebc6d3965, type: 3}
-  maxEnemies: 17
+  waveDuration: 30
+  enemyTypes: []
+  maxEnemies: 0

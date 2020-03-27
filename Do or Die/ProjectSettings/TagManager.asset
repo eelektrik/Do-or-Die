@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Wall
+  - PlayerProjectile
+  - EnemyProjectile
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -13,15 +17,15 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Enemies
+  - Player Projectile
+  - Enemy Projectile
+  - UpgradeBase
+  - Upgrade
+  - World
+  - Explosion
+  - Shield
   - 
   - 
   - 
