@@ -22,10 +22,11 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Lava02
   m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
-  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA _BLENDMODE_ADD _BLENDMODE_PRESERVE_SPECULAR_LIGHTING
-    _DISABLE_DECALS _DISABLE_SSR _DOUBLESIDED_ON _EMISSION _EMISSIVE_COLOR_MAP _ENABLE_FOG_ON_TRANSPARENT
-    _ENABLE_GEOMETRIC_SPECULAR_AA _MATERIAL_FEATURE_IRIDESCENCE _NORMALMAP _NORMALMAP_TANGENT_SPACE
-    _SURFACE_TYPE_TRANSPARENT _TRANSPARENT_WRITES_MOTION_VEC
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA _ADD_PRECOMPUTED_VELOCITY _BLENDMODE_ADD
+    _BLENDMODE_PRESERVE_SPECULAR_LIGHTING _DISABLE_DECALS _DISABLE_SSR _DOUBLESIDED_ON
+    _EMISSION _EMISSIVE_COLOR_MAP _ENABLE_FOG_ON_TRANSPARENT _ENABLE_GEOMETRIC_SPECULAR_AA
+    _MATERIAL_FEATURE_IRIDESCENCE _NORMALMAP _NORMALMAP_TANGENT_SPACE _SURFACE_TYPE_TRANSPARENT
+    _TRANSPARENT_WRITES_MOTION_VEC
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
@@ -34,7 +35,6 @@ Material:
     RenderType: Transparent
   disabledShaderPasses:
   - DistortionVectors
-  - MOTIONVECTORS
   - TransparentDepthPostpass
   m_SavedProperties:
     serializedVersion: 3
@@ -127,7 +127,7 @@ Material:
     - _AORemapMax: 1
     - _AORemapMin: 0
     - _ATDistance: 1
-    - _AddPrecomputedVelocity: 0
+    - _AddPrecomputedVelocity: 1
     - _AlbedoAffectEmissive: 0
     - _AlphaCutoff: 0.5
     - _AlphaCutoffEnable: 0

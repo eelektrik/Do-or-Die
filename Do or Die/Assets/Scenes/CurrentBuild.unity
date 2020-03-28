@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 2.3126256, g: 3.3002992, b: 4.915504, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4067,6 +4067,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 9039545327916093761, guid: 2c569fb91cce425458b3c66934ecca63,
+        type: 3}
+      propertyPath: controllerInputs
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9039545327916093771, guid: 2c569fb91cce425458b3c66934ecca63,
         type: 3}
       propertyPath: m_Name
@@ -4146,6 +4151,77 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2134145410, guid: f095cfc2c0c47df4188543912851dd19, type: 3}
+      propertyPath: m_InteractsWithSky
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2134145410, guid: f095cfc2c0c47df4188543912851dd19, type: 3}
+      propertyPath: useVolumetric
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2134145410, guid: f095cfc2c0c47df4188543912851dd19, type: 3}
+      propertyPath: m_Intensity
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 2134145410, guid: f095cfc2c0c47df4188543912851dd19, type: 3}
+      propertyPath: m_AngularDiameter
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2314333996260783827, guid: f095cfc2c0c47df4188543912851dd19,
+        type: 3}
+      propertyPath: m_UseColorTemperature
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2314333996260783827, guid: f095cfc2c0c47df4188543912851dd19,
+        type: 3}
+      propertyPath: m_ColorTemperature
+      value: 7000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2314333996260783827, guid: f095cfc2c0c47df4188543912851dd19,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 2314333996260783827, guid: f095cfc2c0c47df4188543912851dd19,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.61952
+      objectReference: {fileID: 0}
+    - target: {fileID: 2314333996260783827, guid: f095cfc2c0c47df4188543912851dd19,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.5376
+      objectReference: {fileID: 0}
+    - target: {fileID: 2314333996260783827, guid: f095cfc2c0c47df4188543912851dd19,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 2314333996260783827, guid: f095cfc2c0c47df4188543912851dd19,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2314333996260783827, guid: f095cfc2c0c47df4188543912851dd19,
+        type: 3}
+      propertyPath: m_BounceIntensity
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2314333996260783827, guid: f095cfc2c0c47df4188543912851dd19,
+        type: 3}
+      propertyPath: m_ShadowAngle
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2314333996260783827, guid: f095cfc2c0c47df4188543912851dd19,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2314333996260783827, guid: f095cfc2c0c47df4188543912851dd19,
+        type: 3}
+      propertyPath: m_Type
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5627593081613001648, guid: f095cfc2c0c47df4188543912851dd19,
         type: 3}
       propertyPath: m_Name
