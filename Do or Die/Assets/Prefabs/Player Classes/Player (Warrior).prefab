@@ -229,7 +229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9916bc2853c4de746ba6cc4d75efb8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  meterMax: 0
+  meterMax: 2
   abilityEffects: {fileID: 820659827709166375, guid: 3ddbb4bbb9183ef429094abb448b7413,
     type: 3}
   screenEffectsDuration: 0.25

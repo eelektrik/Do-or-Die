@@ -43,7 +43,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8987065254577833197}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4408e21d7fc96c84ab3e1001eeba76e9, type: 3}
+  m_Script: {fileID: 11500000, guid: 31a87bd1457ab6d42b85f8fa42680e49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxLevel: 120
@@ -60,7 +60,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8987065254577833197}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8cfd104994a92274e9f4d86257eeb323, type: 3}
+  m_Script: {fileID: 11500000, guid: 33f5e32206021554993f48504912b652, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 0}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8987065254577833197}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9513d7b6e6a18b641877050798303893, type: 3}
+  m_Script: {fileID: 11500000, guid: aec366426a9b8e14eba9f0df5f93bbce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
@@ -118,48 +118,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8987065254577833197}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e358e684042ee9648a0f9406cae84ae8, type: 3}
+  m_Script: {fileID: 11500000, guid: 493a3614a894602429dbaf5e593a3ebd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tier_1_upgrades:
-  - {fileID: 6918491742382725740, guid: 5d85228b963650a448f0fe1e43377427, type: 3}
-  - {fileID: 133869242910968719, guid: 9a91a3843cc2af74d8ff8202d5eb5c2a, type: 3}
-  - {fileID: 2953776706401954981, guid: 7b1f1a6de94531941bf6e323a5691f1c, type: 3}
-  - {fileID: 8009422069872598643, guid: 674b93ea5a17f4b4bbfe0a116208d4df, type: 3}
-  - {fileID: 251216790939574256, guid: c7ae7e5086a15cc4a9a1dc6d57b73a82, type: 3}
-  - {fileID: 4591429619863495160, guid: 7a3f9d4476de0d74e82a61589e45ed09, type: 3}
-  - {fileID: 8754700497501427503, guid: 93d28897d69872140a4af6e14c0c32dc, type: 3}
-  - {fileID: 3842148906786167107, guid: 46d3611795c8dd2438b812cdbcc4fa61, type: 3}
-  - {fileID: 473919480667526472, guid: d8881b61ae11ab54b8490f33ddb0ce0f, type: 3}
-  - {fileID: 3084819287924313349, guid: ce9a0cc51965ef64fba08e1bce530334, type: 3}
-  tier_2_upgrades:
-  - {fileID: 8425681149596317999, guid: 7b2769540cb7d8d469644bd20923426b, type: 3}
-  - {fileID: 7254168632593618089, guid: b5a035af6f2d8f643a0c631af3944c05, type: 3}
-  - {fileID: 5496060068631167662, guid: d5fcc1b7841e0624aaea560712f23ef7, type: 3}
-  - {fileID: 2403863697993383881, guid: 70ea70c7675697845b17c6e591f4a876, type: 3}
-  - {fileID: 7609310642914541206, guid: 4a19566be047e7a45b8c7655a4992157, type: 3}
-  - {fileID: 6668996232578039720, guid: 7536d8c870ffec84f8e89aaa8bb6999a, type: 3}
-  - {fileID: 3144492782829963593, guid: 25c5d0b32fd45dc44b2c4303455d45b7, type: 3}
-  - {fileID: 5567756898603603352, guid: 000eee82c41755a41af95ec72e2a20c1, type: 3}
-  - {fileID: 3325238778084572284, guid: 4306e545620e3554b8c7074c79439604, type: 3}
-  - {fileID: 2049031776780629159, guid: 721ed6bc8a515a44c965d199cad64d46, type: 3}
-  tier_3_upgrades:
-  - {fileID: 7403800329276679316, guid: d686123c0238e2b4d9f38cb73249f39c, type: 3}
-  - {fileID: 2913298756268713262, guid: 6b2b1419d6bd17746ab11de114a1912e, type: 3}
-  - {fileID: 6608238355712377012, guid: 2780644d5e11ecf4db150a98124ab995, type: 3}
-  - {fileID: 1608676102826112098, guid: 0064029148fca4d46896dcd9b5fc4c4f, type: 3}
-  - {fileID: 2312958556553445024, guid: d83f4a2411aa5ef4ca59467083ab43c4, type: 3}
-  - {fileID: 6318158988848585220, guid: 9e803446ca772ad4988d3b52a9f88e33, type: 3}
-  - {fileID: 2162305759233770683, guid: 0019ee6f44876f84397b8f122128d5a9, type: 3}
-  - {fileID: 5248472303053014553, guid: 95abc386536339748a1e7fefa748f2d6, type: 3}
-  - {fileID: 5971861114440996579, guid: c66d97502154d0e4c840cf396c002156, type: 3}
-  - {fileID: 2683168951196200048, guid: dc0e9b1e1b21e7a40874775fdc1a1030, type: 3}
-  attributes:
-  - {fileID: 9222508288697636200, guid: cb14c150a01a0924f9bb9915da5b449c, type: 3}
-  - {fileID: 1443813253907745672, guid: d1aa8f3425b88354ab7700e4622ec79a, type: 3}
-  - {fileID: 8768567469750059069, guid: ae6f571c0105cfe4a9eacfed2ff5bfca, type: 3}
-  - {fileID: 182868132311254281, guid: eb455ff7aebfd0d4fbdea6630d953e39, type: 3}
-  movement:
-  - {fileID: 2116280691593725409, guid: 70d12ab521f27b94888e53b79cd03de0, type: 3}
-  - {fileID: 5016951561986655592, guid: 6a2fd4b744a76e54da0d2cac1a7e25cd, type: 3}
-  - {fileID: 5026347088053405409, guid: 245a022fc372a3147a3d86b7b1cb503f, type: 3}
+  tier_1_upgrades: []
+  tier_2_upgrades: []
+  tier_3_upgrades: []
+  attributes: []
+  movement: []
