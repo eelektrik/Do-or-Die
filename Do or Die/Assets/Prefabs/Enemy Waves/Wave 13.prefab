@@ -43,6 +43,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4e8636e0e7924c499d7512d1e31ded9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waveDuration: 30
-  enemyTypes: []
-  maxEnemies: 0
+  waveDuration: 45
+  enemyTypes:
+  - {fileID: 7476024113197626310, guid: c2645cedf243f2e4aa353212de323f6f, type: 3}
+  - {fileID: 6999321597617015417, guid: 2aeb134d8fda1af44a22f980f5fa844f, type: 3}
+  - {fileID: 4904803380716362482, guid: 22e42d581d0fc0e46af72f28e0d7f5a9, type: 3}
+  - {fileID: 8116265560948319854, guid: 43282c21db347024199c0be2cf5fc260, type: 3}
+  - {fileID: 8116265560948319854, guid: 69691da2dd3c35649bc119557cc15416, type: 3}
+  - {fileID: 5716781273162608321, guid: af1263482e1b10e49b4160f69168fdec, type: 3}
+  - {fileID: 7435176180860986154, guid: 8ba99d8b3d406dd47b7bd13999bcc4d6, type: 3}
+  - {fileID: 7435176180860986154, guid: 8ba99d8b3d406dd47b7bd13999bcc4d6, type: 3}
+  maxEnemies: 17

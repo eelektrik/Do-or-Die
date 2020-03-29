@@ -43,6 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4e8636e0e7924c499d7512d1e31ded9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waveDuration: 30
-  enemyTypes: []
-  maxEnemies: 0
+  waveDuration: 15
+  enemyTypes:
+  - {fileID: 6999321597617015417, guid: 2aeb134d8fda1af44a22f980f5fa844f, type: 3}
+  maxEnemies: 4

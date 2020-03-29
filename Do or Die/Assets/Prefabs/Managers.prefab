@@ -155,7 +155,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d2ba55c50b9ebe41bf71be9490f261a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthBar: {fileID: 0}
+  healthBar: {fileID: 430982124670971350, guid: f3d89cde0226e5d4ea71c51a610a9599,
+    type: 3}
 --- !u!114 &9039545327916093772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -208,7 +209,7 @@ MonoBehaviour:
   startingPos: {fileID: 0}
   breakDuration: 3
   timerNumber: {fileID: 0}
-  nextLevel: {fileID: 0}
+  nextLevel: {fileID: 102900000, guid: af1efbc1d20767343a1e7038f5c44559, type: 3}
   winScreen: {fileID: 0}
   loseScreen: {fileID: 0}
 --- !u!114 &9039545327916093774
@@ -285,5 +286,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ee2226bcd8dce2449c2fb4db8ff334d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dropChance: 0
-  itemPool: []
+  dropChance: 0.2
+  itemPool:
+  - {fileID: 6230146370784071409, guid: 325e66a2f01450b43a79a1c20093db72, type: 3}
+  - {fileID: 6120257763785998993, guid: c2cd46c41fba92d40a1b9ccfe3fc7c32, type: 3}
+  - {fileID: 8477454672777531068, guid: 58c2141fd32728d4c8c7b3548f34937e, type: 3}
+  - {fileID: 8434400287537939516, guid: 2511934357b57f643a5398514285c5a5, type: 3}
+  - {fileID: 1569702649978424448, guid: 33bbadbc1b798e343a2f02a66c36b95f, type: 3}
+  - {fileID: 3865688266567297358, guid: 266df90e6e7f0d34e9e9d69fb08a5f3c, type: 3}

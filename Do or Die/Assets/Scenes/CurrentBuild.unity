@@ -120,7 +120,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: 7e2550e8409057b43860ce1cfd68f705, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: fca0513919cd2e74ea0ef1154f6eb5f4, type: 2}
 --- !u!1001 &2308561
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -240,6 +240,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46637779b6a0dc240ab6a9177559a288, type: 3}
+--- !u!114 &2308562 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6520557448943583621, guid: 46637779b6a0dc240ab6a9177559a288,
+    type: 3}
+  m_PrefabInstance: {fileID: 2308561}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2308563 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2761048039129061293, guid: 46637779b6a0dc240ab6a9177559a288,
+    type: 3}
+  m_PrefabInstance: {fileID: 2308561}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2308564 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2761048038745532723, guid: 46637779b6a0dc240ab6a9177559a288,
+    type: 3}
+  m_PrefabInstance: {fileID: 2308561}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &30926055
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,7 +294,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 30926055}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69a92733a6e95284aab82303bab31a58, type: 3}
+  m_Script: {fileID: 11500000, guid: 52ff2a7685acaf14fafde5f03945777a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!95 &30926057
@@ -283,7 +307,7 @@ Animator:
   m_GameObject: {fileID: 30926055}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e7e02e084132fbf46a78f505a995fd9a, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9855cb4fcf0c875458b4ca4c2a947579, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3806,9 +3830,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1453486375}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 844fa575e58f08a428c480fcddedc7ea, type: 3}
+  m_Script: {fileID: 11500000, guid: ccaa3fdfb675089428e53d0acd9896b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minSize: 16
+  maxSize: 40
+  minDamage: 1
+  maxDamage: 16
+  damageNum: {fileID: 817608815}
+  fading: 0
 --- !u!95 &1453486378
 Animator:
   serializedVersion: 3
@@ -3819,7 +3849,7 @@ Animator:
   m_GameObject: {fileID: 1453486375}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e7e02e084132fbf46a78f505a995fd9a, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9855cb4fcf0c875458b4ca4c2a947579, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -4067,11 +4097,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 9039545327916093761, guid: 2c569fb91cce425458b3c66934ecca63,
-        type: 3}
-      propertyPath: controllerInputs
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 9039545327916093771, guid: 2c569fb91cce425458b3c66934ecca63,
         type: 3}
       propertyPath: m_Name
@@ -4142,6 +4167,21 @@ PrefabInstance:
       propertyPath: startingPos
       value: 
       objectReference: {fileID: 589700047}
+    - target: {fileID: 9039545327916093775, guid: 2c569fb91cce425458b3c66934ecca63,
+        type: 3}
+      propertyPath: timerNumber
+      value: 
+      objectReference: {fileID: 2308562}
+    - target: {fileID: 9039545327916093775, guid: 2c569fb91cce425458b3c66934ecca63,
+        type: 3}
+      propertyPath: winScreen
+      value: 
+      objectReference: {fileID: 2308564}
+    - target: {fileID: 9039545327916093775, guid: 2c569fb91cce425458b3c66934ecca63,
+        type: 3}
+      propertyPath: loseScreen
+      value: 
+      objectReference: {fileID: 2308563}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c569fb91cce425458b3c66934ecca63, type: 3}
 --- !u!1001 &1848062695
@@ -4167,6 +4207,11 @@ PrefabInstance:
       propertyPath: m_AngularDiameter
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 387599371634203964, guid: f095cfc2c0c47df4188543912851dd19,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 48cc3f201ce61354fa0fcb621ed6d630, type: 2}
     - target: {fileID: 2314333996260783827, guid: f095cfc2c0c47df4188543912851dd19,
         type: 3}
       propertyPath: m_UseColorTemperature

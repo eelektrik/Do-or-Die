@@ -54,12 +54,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 5590172407027982255}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b687d93586dd67d4eacd157998f93fde, type: 3}
+  m_Script: {fileID: 11500000, guid: a8aced26cbcf61744bc22281cfd1b86b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   nma: {fileID: 0}
-  dodgeCooldown: 2
-  dodgeSpeed: 30
-  dodgeRadius: 3
-  maxDistance: 2
+  dodgeCooldown: 0
+  dodgeSpeed: 0
+  dodgeRadius: 0
+  maxDistance: 0
   enemy: {fileID: 0}
