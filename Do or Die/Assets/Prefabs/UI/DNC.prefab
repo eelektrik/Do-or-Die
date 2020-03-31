@@ -39,7 +39,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 1.1649933}
+  m_AnchoredPosition: {x: 0, y: 1.164978}
   m_SizeDelta: {x: 400, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &8090745691512912212
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 430982124670971350}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69a92733a6e95284aab82303bab31a58, type: 3}
+  m_Script: {fileID: 11500000, guid: 52ff2a7685acaf14fafde5f03945777a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &6726452119462279477
@@ -123,7 +123,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 430982124670971350}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 844fa575e58f08a428c480fcddedc7ea, type: 3}
+  m_Script: {fileID: 11500000, guid: ccaa3fdfb675089428e53d0acd9896b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   minSize: 60
@@ -131,6 +131,7 @@ MonoBehaviour:
   minDamage: 1
   maxDamage: 16
   damageNum: {fileID: 173825692774269747}
+  fading: 0
 --- !u!95 &5912683579750737333
 Animator:
   serializedVersion: 3
@@ -141,7 +142,7 @@ Animator:
   m_GameObject: {fileID: 430982124670971350}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e7e02e084132fbf46a78f505a995fd9a, type: 2}
+  m_Controller: {fileID: 9100000, guid: 9855cb4fcf0c875458b4ca4c2a947579, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

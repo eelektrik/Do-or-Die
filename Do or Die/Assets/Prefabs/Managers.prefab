@@ -207,7 +207,7 @@ MonoBehaviour:
   rangerManager: {fileID: 8987065254577833197, guid: 2a4a307f42cc9d947821800516340b98,
     type: 3}
   startingPos: {fileID: 0}
-  breakDuration: 3
+  breakDuration: 10
   timerNumber: {fileID: 0}
   nextLevel: {fileID: 102900000, guid: af1efbc1d20767343a1e7038f5c44559, type: 3}
   winScreen: {fileID: 0}
@@ -228,9 +228,9 @@ MonoBehaviour:
   - {fileID: 28039873105985453, guid: 48d9b4d5081282042b8b838a2f7bfe5f, type: 3}
   - {fileID: 28039873105985453, guid: 78c9eda4fb417494482a705f65b74d4d, type: 3}
   - {fileID: 28039873105985453, guid: 25af648cc0d6594469632a7c27bb2c48, type: 3}
-  - {fileID: 28039873105985453, guid: 47887cd661ebeec4888174f6a5ea8bea, type: 3}
   - {fileID: 4727111566165525611, guid: 9be5a0f41b0c05f40bde8805f8ce8635, type: 3}
   - {fileID: 1481718395652945304, guid: 9ae699cf05c91b545abf175e4a1f1848, type: 3}
+  - {fileID: 28039873105985453, guid: 47887cd661ebeec4888174f6a5ea8bea, type: 3}
   - {fileID: 8091429063123522866, guid: 25ed929c71c7dd54a934e8d77c0db106, type: 3}
   - {fileID: 22972368204138555, guid: 7769ba35cb31a1f4097a6d65ba6881c1, type: 3}
   - {fileID: 8326515236814347642, guid: 18083ef2d86ada9439a0ea17b56004af, type: 3}
